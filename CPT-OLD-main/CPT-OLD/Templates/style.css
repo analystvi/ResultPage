@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(243, 255, 244);
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+table tr td{
+    background-color: rgb(191, 255, 168);
+    color: rgb(9, 173, 0);
+    padding: 6px 360px;
+    border-radius: 10px;
+    position: relative;
+    right: 0px;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+@media (max-width: 360px) {
+    table tr td{
+        padding: 6px 250px;
+        position: relative;
+        left: 20px;
+        margin-bottom: 20px;
+        display: inline-block; 
+    }
+}
+.collegecode{
+    position: relative;
+    right: 290px;
+    font-size: 14px;
+}
+@media (max-width: 360px) {
+    .collegecode{
+        position: relative;
+        right: 200px;
+        font-size: 21px;
+    }
+}
+.collegename{
+    position: relative;
+   font-size: 26px;
+    right: 291px;
+    top: 13px;
+    font-weight: 800;
+}
+@media (max-width: 360px) {
+    .collegename{
+        position: relative;
+        font-size: 35px;
+        right: 200px;
+    }
+}
+.caste{
+    position: relative;
+    top: 37px;
+    left: 30px;
+}
+@media (max-width: 360px) {
+    .caste{
+        position: relative;
+        font-size: 19px;
+        left: 80px;
+        top: 55px;
+    }
+}
+.branchname{
+    position: relative;
+    top: 18px;
+    right: 290px;
+}
+@media (max-width: 360px) {
+    .branchname{
+        position: relative;
+        font-size: 19px;
+        right: 200px;
+        top: 30px;
+    }
+}
+.pmcrank{
+    position: relative;
+    left: 280px;
+}
+@media (max-width: 360px) {
+    .pmcrank{
+        position: relative;
+        font-size: 19px;
+        right: 310px;
+    }
+}
+header{
+    font-weight: 900;
+    color: hsla(126, 100%, 11%, 0);
+    background-image: linear-gradient(140deg,rgb(34, 255, 0),rgb(9, 66, 0));
+    background-clip: text;
+    z-index: 1;
+    font-size: 21px;
+    width: 500PX;
+    position: relative;
+    right: 15px;
+    cursor: context-menu;
+}
+header h1 span{
+    color: rgb(0, 199, 7);
+    position: relative;
+    right: 350px;
+    font-size: 35px;
+    transition: .5s;
+}
+header h1 span:hover{
+    cursor: pointer;
+    color: rgb(32, 121, 0);
+
+}
+@media (max-width: 360px) {
+    header h1 span{
+        position: relative;
+        right: 190px;
+    }
+}
+
+@media (max-width: 360px) {
+    header{
+        position: relative;
+        left: 140px;
+    }
+}
+
+::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 87, 0);
+}
+
+.button-container {
+    display: flex;
+    background-color: rgb(23, 115, 0);
+    width: 900px;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    right: -30px;
+    justify-content: space-around;
+    top: 1400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+          rgba(245, 73, 144, 0.5) 5px 10px 15px;
+  }
+  
+  .button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    transform: scale(2.6);
+  }
+  
+  .button:hover {
+    position: relative;
+    transform: scale(2.3);
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
